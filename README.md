@@ -19,9 +19,9 @@ Let me briefly comment:
 2. **Numerical stability** - Be cautious when working with real numbers, as they are prone to approximation errors. For example, a condition like x == y is unreliable due to the inherent imprecision of real number representations. Additionally, be aware of issues like catastrophic cancellation and error propagation, particularly in iterative methods where errors can grow exponentially.
 3. **Accurate discretization** - The discretization must respect the symmetries of the system being simulated. Furthermore, let \( T \) be an observable defined on a certain interval, and let \( T_h \) be its discretized version computed on a grid with spacing \( h \). Then, as \( h \) approaches zero, \( T_h \) must converge to \( T \):
 
-\[
+$$
 \lim_{h \to 0} T_h = T
-\]
+$$
 
 5. **Efficiency** - If you took care of the previous steps, it's now much easier to consider the leading order algorithmic complexity and improve the efficiency of your program. "95% of time is spent on 5% of the code"
 
