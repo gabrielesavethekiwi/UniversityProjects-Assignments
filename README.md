@@ -1,6 +1,6 @@
 # Quantum Physics Course Weekly Assignments
 
-I am collecting posthumously the weekly assignments from the course "Quantum Information and Computing". 
+I am collecting posthumously the weekly assignments from the course "Quantum Information and Computing", taught by S.Montangero and G.Magnifico at Università degli Studi di Padova.
 
 It has been a pivotal step in my development as a scientist, as I had limited exposure to programming and computational techniques before this course.
 
